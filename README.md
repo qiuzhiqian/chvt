@@ -10,8 +10,17 @@
 
 [Linux Programming Hints](https://www.linuxjournal.com/article/2798)
 
+[How VT-switching works](https://dvdhrm.wordpress.com/2013/08/24/how-vt-switching-works/)
+
 ## chvt工具
+### 编译
 工具通过cmd/main.go生成
 ```bash
+$ go mod tidy
 $ go build -o chvt cmd/main.go
+```
+
+### 使用
+```
+$ sudo ./chvt --num 8
 ```
