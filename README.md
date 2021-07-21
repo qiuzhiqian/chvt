@@ -8,6 +8,8 @@
 
 [Using Virtual Terminals under Linux](http://asm.sourceforge.net/articles/vt.html)
 
+[Linux Programming Hints](https://www.linuxjournal.com/article/2798)
+
 ## chvt工具
 工具通过cmd/main.go生成
 ```bash
